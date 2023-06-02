@@ -1,0 +1,32 @@
+.showContainer {
+  border: 1px solid;
+  padding: 100px;
+}
+
+.tvShows{
+  color: grey;
+  padding: 10px 0;
+}
+.nameContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  padding: 50px;
+  list-style-type: none;
+  box-shadow: 0px 0px 8px rgba(166, 165, 165, 0.676);
+}
+
+.nameSize img,
+.nameBottom {
+  background-color: rgb(219, 235, 240);
+  width: 100%;
+  color: rgb(38, 88, 182);
+}
+
+@media screen and (max-width:1000px) {
+  .showContainer {
+    padding: 30px;
+  }
+}
